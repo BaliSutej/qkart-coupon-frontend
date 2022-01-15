@@ -1,17 +1,28 @@
 import react from 'react';
 import './App.css';
+import ApplyCoupon from './components/ApplyCoupon';
 
-class App extends react.Component{
-  
-  constructor(props){
+class App extends react.Component {
+
+  constructor(props) {
     super(props);
   }
 
-  render(){
+  render() {
     return (
       <>
-        <h1>Hello There</h1>
-        <h2>How are you ?</h2>
+        <div id='nav'>
+          <p>Qkart Coupon dashboard</p>
+        </div>
+        <div id='dashboard'>
+          <div id='left'>
+            <ApplyCoupon></ApplyCoupon>
+
+          </div>
+          <div id='right'>
+
+          </div>
+        </div>
       </>
     )
   }

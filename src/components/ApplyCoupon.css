@@ -1,0 +1,35 @@
+#applycoupon-cmpt{
+    border: 2px solid red;
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    background-color: darkcyan;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+
+.cartAmount{
+    font-size: 30px;
+    
+  }
+
+.cartAmount input{
+    /* height: 40px; */
+    /* margin-left: 40px; */
+    font-size: 30px;
+    width: 200px;
+}
+
+.cartCoupon {
+    margin-top: 40px;
+}
+
+.cartCoupon input{
+    width: 200px;
+    font-size: 20px;
+}
+.cartCoupon button{
+    font-size: 20px;
+    
+}
