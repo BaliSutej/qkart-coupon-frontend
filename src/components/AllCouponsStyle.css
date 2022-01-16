@@ -1,0 +1,22 @@
+#allcoupon-cmpt{
+    color: blue;
+    background-color: burlywood;
+    width: 80%;
+    margin: auto;
+    min-height: 500px;
+}
+
+.coupons{
+    display: inline-block;
+    width: 46%;
+    height: 100px;
+    background-color: chocolate;
+    text-align: center;
+    padding-top: 5px;
+    margin: 1%;
+}
+
+.coupons h5 {
+    font-size: medium;
+    margin-bottom: 5px;
+}
