@@ -1,17 +1,17 @@
 #nav{
   width: 100vw;
   height: 60px;
-  border: 1px solid darkcyan;
+  border: 1px solid #1167b1;
   text-align: center;
   font-size: large;
   font-weight: bolder;
-  background-color: darkcyan;
+  background-color: #1167b1;
   color: whitesmoke;
 }
 
 
 #dashboard{
-  border: 2px solid blue;
+  border: 2px solid inherit;
   min-height: 100vh;
   display: flex;
   padding-top: 70px;
@@ -20,14 +20,12 @@
 }
 
 #left{
-  background-color: yellow;
   width: 50%;
   display: inline-flexbox;
   min-height: 100vh;
 }
 
 #right{
-  background-color: yellowgreen;
   width: 50%;
   display: inline-flexbox;
   min-height: 100vh;

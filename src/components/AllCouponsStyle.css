@@ -1,6 +1,5 @@
 #allcoupon-cmpt{
-    color: blue;
-    background-color: burlywood;
+    color: whitesmoke;
     width: 80%;
     margin: auto;
     min-height: 500px;
@@ -10,7 +9,7 @@
     display: inline-block;
     width: 46%;
     height: 100px;
-    background-color: chocolate;
+    background-color: #1167b1;
     text-align: center;
     padding-top: 5px;
     margin: 1%;

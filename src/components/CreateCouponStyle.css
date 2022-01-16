@@ -1,9 +1,9 @@
 #createcoupon-cmpt{
-    border: 2px solid red;
+    border: 2px solid #1167b1;
     min-height: 200px;
     width: 80%;
     margin: auto;
-    background-color: darkcyan;
+    background-color: #1167b1;
     color: whitesmoke;
     padding: 20px;
 }
