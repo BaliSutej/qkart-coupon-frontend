@@ -1,0 +1,13 @@
+#createcoupon-cmpt{
+    border: 2px solid red;
+    min-height: 200px;
+    width: 80%;
+    margin: auto;
+    background-color: darkcyan;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+#createcoupon-cmpt input{
+    display: block;
+}
