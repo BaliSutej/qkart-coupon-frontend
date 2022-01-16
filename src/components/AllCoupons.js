@@ -4,14 +4,38 @@ import Coupon from './Coupon';
 
 class AllCoupons extends react.Component {
 
-    x = [{ code: "XYZ-Myntra-12" }, { code: "XYZ-Myntra-12" }, { code: "XYZ-Myntra-12" }, { code: "XYZ-Myntra-12" }, { code: "XYZ-Myntra-12" }, { code: "XYZ-Myntra-12" }, { code: "XYZ-Myntra-12" }]
+    constructor(props){
+        super(props);
+        this.state = {
+            couponsList : []
+        };
+    }
+
+
+    getLatestCoupons = async () => {
+        let res = await fetch('https://qkart-coupon-backend.herokuapp.com/all-coupons');
+        res = await res.json();
+        this.setState({
+            couponsList : res
+        })
+    }
+
+
+    onClickHandler = (e) =>{
+        console.log("Button clicked");
+            this.getLatestCoupons();
+    }
+
 
     render() {
         return (
             <>
+                <div>
+                    <button onClick={this.onClickHandler}>Get Coupons</button>
+                </div>
                 <div id='allcoupon-cmpt'>
                     {
-                        this.x.map((ele) => (
+                        this.state.couponsList.map((ele) => (
                             <Coupon code={ele.code}></Coupon>
                         ))
                     }
